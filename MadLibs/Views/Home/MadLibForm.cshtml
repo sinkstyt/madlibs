@@ -1,1 +1,43 @@
-<p>Hello world!</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Mad Libs</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Get ready for Mad Libs!</h1>
+      <p>Fill out the form with words, and we'll create a story for you!</p>
+    </div>
+
+    <form class="col-md-11" action="/story" method="post">
+      <div class="form-group col-sm-10">
+        <label for="noun">A noun</label>
+        <input class="form-control" id="noun" name="noun" type="text">
+      </div>
+      <div class="form-group col-sm-10">
+        <label for="verb">A verb</label>
+        <input class="form-control" id="verb" name="verb" type="text">
+      </div>
+      <div class="form-group col-sm-10">
+        <label for="adjective">An adjective</label>
+        <input class="form-control" id="adjective" name="adjective" type="text">
+      </div>
+      <div class="form-group col-sm-10">
+        <label for="adverb">An adverb</label>
+        <input class="form-control" id="adverb" name="adverb" type="text">
+      </div>
+      <div class="form-group col-sm-10">
+        <label for="exclamation">An exclamation</label>
+        <input class="form-control" id="exclamation" name="exclamation" type="text">
+      </div>
+      <div class="form-group col-sm-10">
+        <button class="btn btn-danger" type="submit">Make a story!</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
