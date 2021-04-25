@@ -12,7 +12,7 @@ namespace MadLibs.Controllers
     }
 
     [Route("/story")]
-    public ActionResult Story(string noun, string adjective, string adverb, string verb, string exclamation)
+    public ActionResult Story(string noun, string adjective, string adverb, string verb, string exclamation, string deviceNoun, string deviceRelatedVerb, string deviceRelatedNoun, string lengthExpression, string location)
     {
       StoryVariable myStory = new StoryVariable();
       myStory.Noun = noun;
@@ -20,6 +20,11 @@ namespace MadLibs.Controllers
       myStory.Adverb = adverb;
       myStory.Verb = verb;
       myStory.Exclamation = exclamation;
+      myStory.DeviceNoun = deviceNoun;
+      myStory.DeviceRelatedVerb = deviceRelatedVerb;
+      myStory.DeviceRelatedNoun = deviceRelatedNoun;
+      myStory.LengthExpression = lengthExpression;
+      myStory.Location = location;
       return View(myStory);
     }
   }
