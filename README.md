@@ -2,7 +2,7 @@
 _you supply the parts of speech, the repository does the rest_
 
 ### Authors
-* Shanen Cross $amp;
+* Shanen Cross &amp;
 * Tyler Sinks
 * _originally built April 25, 2021_
 
@@ -41,7 +41,7 @@ For those completely new to C# and dotnet, please see these detailed instruction
 * Feel free to edit this project or start a pull request
 
 ### License
-* Copyright 2021 :copyright:  Shanen Cross $amp; Tyler Sinks
+* Copyright 2021 :copyright:  Shanen Cross &amp; Tyler Sinks
 * [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/saoud/csharp-TDD-template/blob/main/LICENSE)
 
 ### Contact
